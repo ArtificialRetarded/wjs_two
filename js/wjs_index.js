@@ -1,7 +1,7 @@
 $(function () {
     getData();
     tabShow();
-    isScroll();
+    // isScroll();
 })
 
 function getData() {
@@ -35,10 +35,10 @@ function tabShow(){
     })
 }
 
-function isScroll(){
-    var myScroll = new IScroll('.wrapper',{
-        scrollX:true,
-        scrollY:false,
-        click:true
-    });
-}
+// function isScroll(){
+//     var myScroll = new IScroll('.wrapper',{
+//         scrollX:true,
+//         scrollY:false,
+//         click:true
+//     });
+// }
